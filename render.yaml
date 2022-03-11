@@ -1,0 +1,6 @@
+# A static site
+  - type: web
+    name: sky
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: node build/index.js 
